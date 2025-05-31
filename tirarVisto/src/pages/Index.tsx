@@ -60,7 +60,7 @@ function Index() {
             </div>
           </div>
 
-          <div className="bg-[url(heroPicture.png))] bg-no-repeat p-10 rounded-2xl flex flex-col justify-between">
+          <div className="bg-[url(heroPicture.png)] bg-no-repeat p-10 rounded-2xl flex flex-col justify-between">
             <div className="flex justify-end">
                 <Label texto="Tirar meu visto agora!"/>
             </div>
@@ -149,25 +149,25 @@ function Index() {
 
           <div className="flex flex-col items-center gap-4">
             <div className="flex  items-end gap-4">
-              <div className="flex w-64 h-56 rounded-3xl p-4 items-end justify-center bg-[url(indonesia.png))]">
+              <div className="flex w-64 h-56 rounded-3xl p-4 items-end justify-center bg-[url(indonesia.png)]">
                 <p className="backdrop-blur-xs bg-white/20 rounded-full px-3 py-1 text-white">Bali, Indonesia</p>
               </div>
-              <div className="flex w-64 h-64 rounded-3xl p-4 items-end justify-center bg-[url(novaYork.png))]">
+              <div className="flex w-64 h-64 rounded-3xl p-4 items-end justify-center bg-[url(novaYork.png)]">
                 <p className="backdrop-blur-xs bg-white/20 rounded-full px-3 py-1 text-white text-sm">Nova York, Estados Unidos</p>
               </div>
-              <div className="flex w-64 h-56 rounded-3xl p-4 items-end justify-center bg-[url(santorini.png))]">
+              <div className="flex w-64 h-56 rounded-3xl p-4 items-end justify-center bg-[url(santorini.png)]">
                 <p className="backdrop-blur-xs bg-white/20 rounded-full px-3 py-1 text-white">Santorini, Grécia</p>
               </div>
             </div>
 
             <div className="flex items-start gap-4">
-              <div className="flex w-64 h-56 rounded-3xl p-4 items-end justify-center bg-[url(paris.png))]">
+              <div className="flex w-64 h-56 rounded-3xl p-4 items-end justify-center bg-[url(paris.png)]">
                 <p className="backdrop-blur-xs bg-white/20 rounded-full px-3 py-1 text-white">Paris, França</p>
               </div>
-              <div className="flex w-64 h-64 rounded-3xl p-4 items-end justify-center bg-[url(cidadeDoCabo.png))]">
+              <div className="flex w-64 h-64 rounded-3xl p-4 items-end justify-center bg-[url(cidadeDoCabo.png)]">
                 <p className="backdrop-blur-xs bg-white/20 rounded-full px-3 py-1 text-white text-sm">Cidade do Cabo, África do Sul</p>
               </div>
-              <div className="flex w-64 h-56 rounded-3xl p-4 items-end justify-center bg-[url(mumbai.png))]">
+              <div className="flex w-64 h-56 rounded-3xl p-4 items-end justify-center bg-[url(mumbai.png)]">
                 <p className="backdrop-blur-xs bg-white/20 rounded-full px-3 py-1 text-white">Mumbai, Índia</p>
               </div>
             </div>
