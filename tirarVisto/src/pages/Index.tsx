@@ -10,7 +10,7 @@ function Index() {
       <main>
         <section className="flex gap-6 justify-between pb-4">
           <div className="w-7/12">
-            <NavBar/>
+            <NavBar />
 
             <div className="flex flex-col gap-10">
               <div className="mb-6 pb-15 pt-6 pr-6 border-b-1 border-b-neutral-200">
@@ -30,7 +30,11 @@ function Index() {
                   <Button texto="Saiba mais &rarr;"></Button>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <img className="bg-gray-400 h-25 w-10/12 rounded-2xl" src="videoBruna.png" alt="Video"/>
+                  <img
+                    className="bg-gray-400 h-25 w-10/12 rounded-2xl"
+                    src="videoBruna.png"
+                    alt="Video"
+                  />
                   <div className="flex gap-4 pr-10">
                     <div>
                       <h2>Conheça a Bruna</h2>
@@ -60,9 +64,9 @@ function Index() {
             </div>
           </div>
 
-          <div className="bg-[url(heroPicture.png)] bg-no-repeat p-10 rounded-2xl flex flex-col justify-between">
+          <div className="bg-[url(/heroPicture.png)] bg-no-repeat p-10 rounded-2xl flex flex-col justify-between">
             <div className="flex justify-end">
-                <Label texto="Tirar meu visto agora!"/>
+              <Label texto="Tirar meu visto agora!" />
             </div>
 
             <div className="w-6/12 text-white">
@@ -105,7 +109,11 @@ function Index() {
           </div>
 
           <div className="flex gap-16">
-            <img className="w-3/5 bg-gray-400 rounded-2xl" src="familia.png" alt="Familia em um aeroporto" />
+            <img
+              className="w-3/5 bg-gray-400 rounded-2xl"
+              src="familia.png"
+              alt="Familia em um aeroporto"
+            />
 
             <div>
               <div className="py-5 border-b-1 border-neutral-300">
@@ -145,58 +153,93 @@ function Index() {
             meses, qual seria o seu novo destino?
           </p>
 
-          <Button texto="Conheça mais"/>
+          <Button texto="Conheça mais" />
 
           <div className="flex flex-col items-center gap-4">
             <div className="flex  items-end gap-4">
-              <div className="flex w-64 h-56 rounded-3xl p-4 items-end justify-center bg-[url(indonesia.png)]">
-                <p className="backdrop-blur-xs bg-white/20 rounded-full px-3 py-1 text-white">Bali, Indonesia</p>
+              <div className="flex w-64 h-56 rounded-3xl p-4 items-end justify-center bg-[url(/indonesia.png)]">
+                <p className="backdrop-blur-xs bg-white/20 rounded-full px-3 py-1 text-white">
+                  Bali, Indonesia
+                </p>
               </div>
-              <div className="flex w-64 h-64 rounded-3xl p-4 items-end justify-center bg-[url(novaYork.png)]">
-                <p className="backdrop-blur-xs bg-white/20 rounded-full px-3 py-1 text-white text-sm">Nova York, Estados Unidos</p>
+              <div className="flex w-64 h-64 rounded-3xl p-4 items-end justify-center bg-[url(/novaYork.png)]">
+                <p className="backdrop-blur-xs bg-white/20 rounded-full px-3 py-1 text-white text-sm">
+                  Nova York, Estados Unidos
+                </p>
               </div>
-              <div className="flex w-64 h-56 rounded-3xl p-4 items-end justify-center bg-[url(santorini.png)]">
-                <p className="backdrop-blur-xs bg-white/20 rounded-full px-3 py-1 text-white">Santorini, Grécia</p>
+              <div className="flex w-64 h-56 rounded-3xl p-4 items-end justify-center bg-[url(/santorini.png)]">
+                <p className="backdrop-blur-xs bg-white/20 rounded-full px-3 py-1 text-white">
+                  Santorini, Grécia
+                </p>
               </div>
             </div>
 
             <div className="flex items-start gap-4">
-              <div className="flex w-64 h-56 rounded-3xl p-4 items-end justify-center bg-[url(paris.png)]">
-                <p className="backdrop-blur-xs bg-white/20 rounded-full px-3 py-1 text-white">Paris, França</p>
+              <div className="flex w-64 h-56 rounded-3xl p-4 items-end justify-center bg-[url(/paris.png)]">
+                <p className="backdrop-blur-xs bg-white/20 rounded-full px-3 py-1 text-white">
+                  Paris, França
+                </p>
               </div>
-              <div className="flex w-64 h-64 rounded-3xl p-4 items-end justify-center bg-[url(cidadeDoCabo.png)]">
-                <p className="backdrop-blur-xs bg-white/20 rounded-full px-3 py-1 text-white text-sm">Cidade do Cabo, África do Sul</p>
+              <div className="flex w-64 h-64 rounded-3xl p-4 items-end justify-center bg-[url(/cidadeDoCabo.png)]">
+                <p className="backdrop-blur-xs bg-white/20 rounded-full px-3 py-1 text-white text-sm">
+                  Cidade do Cabo, África do Sul
+                </p>
               </div>
-              <div className="flex w-64 h-56 rounded-3xl p-4 items-end justify-center bg-[url(mumbai.png)]">
-                <p className="backdrop-blur-xs bg-white/20 rounded-full px-3 py-1 text-white">Mumbai, Índia</p>
+              <div className="flex w-64 h-56 rounded-3xl p-4 items-end justify-center bg-[url(/mumbai.png)]">
+                <p className="backdrop-blur-xs bg-white/20 rounded-full px-3 py-1 text-white">
+                  Mumbai, Índia
+                </p>
               </div>
             </div>
           </div>
         </section>
 
         <section className="flex flex-col gap-6">
-          <Label texto="Pacotes"/>
+          <Label texto="Pacotes" />
           <div className="flex justify-between">
-              <h1 className="text-5xl font-medium">Confira nossos pacotes</h1>
-              <div className="flex gap-4">
-                  <button className="border-1 border-blue-950 w-11 h-11 rounded-full text-blue-950 cursor-pointer">&larr;</button>
-                  <button  className="bg-blue-950 w-11 h-11 rounded-full text-white cursor-pointer">&rarr;</button>
-              </div>
+            <h1 className="text-5xl font-medium">Confira nossos pacotes</h1>
+            <div className="flex gap-4">
+              <button className="border-1 border-blue-950 w-11 h-11 rounded-full text-blue-950 cursor-pointer">
+                &larr;
+              </button>
+              <button className="bg-blue-950 w-11 h-11 rounded-full text-white cursor-pointer">
+                &rarr;
+              </button>
+            </div>
           </div>
 
           <div className="flex gap-6">
+            <PacoteCard
+              titulo="Passaporte"
+              atendimento="On-line"
+              tempo="45 dias"
+              preco="890,00"
+              imgSrc="passaporte.png"
+              plano="Basic"
+            />
 
-            <PacoteCard titulo="Passaporte" atendimento="On-line" tempo="45 dias" preco="890,00" imgSrc="passaporte.png" plano="Basic"/>
+            <PacoteCard
+              titulo="Passaporte + Visto"
+              atendimento="On-line + Presencial"
+              tempo="25 dias"
+              preco="1.290,00"
+              imgSrc="passaporteVisto.png"
+              plano="Basic"
+            />
 
-            <PacoteCard titulo="Passaporte + Visto" atendimento="On-line + Presencial" tempo="25 dias" preco="1.290,00" imgSrc="passaporteVisto.png" plano="Basic"/>
-
-            <PacoteCard titulo="Consultoria completa" atendimento="Presencial Completo" tempo="10 dias" preco="1.890,00" imgSrc="consultoria.png" plano="Basic"/>
-
+            <PacoteCard
+              titulo="Consultoria completa"
+              atendimento="Presencial Completo"
+              tempo="10 dias"
+              preco="1.890,00"
+              imgSrc="consultoria.png"
+              plano="Basic"
+            />
           </div>
         </section>
       </main>
 
-      <Footer/>
+      <Footer />
     </body>
   );
 }
