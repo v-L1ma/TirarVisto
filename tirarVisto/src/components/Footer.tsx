@@ -3,8 +3,8 @@ import Button from "./Button";
 function Footer(){
     return(
 <footer className="pt-20">
-        <div className="flex justify-between items-center">
-          <div className="flex flex-col gap-6 w-4/12 ">
+        <div className="flex flex-col gap-10 md:gap-0 md:flex-row justify-between items-center">
+          <div className="flex flex-col gap-6 md:w-4/12 ">
             <h1 className="text-5xl">Está com alguma <br /> dúvida?</h1>
             <p>
               Entre em contato através do nosso canal direto ao cliente através
@@ -23,7 +23,7 @@ function Footer(){
           <div className="flex flex-col gap-4">
             <p>Siga em nossa redes:</p>
 
-            <div className="flex gap-4">          
+            <div className="flex gap-1 md:gap-4">          
                 <p className="border-1 border-neutral-600 w-fit px-4 rounded-2xl">Instagram</p>
                 <p className="border-1 border-neutral-600 w-fit px-4 rounded-2xl">X</p>
                 <p className="border-1 border-neutral-600 w-fit px-4 rounded-2xl">Facebook</p>
@@ -31,7 +31,7 @@ function Footer(){
             </div>
           </div>
 
-          <div className="flex justify-between gap-40">
+          <div className="flex justify-between md:gap-40">
             <ul className="flex flex-col gap-2">
               <li>Empresa</li>
               <li className="text-neutral-500">Home</li>
