@@ -19,7 +19,7 @@ function Footer(){
           </div>
         </div>
 
-        <div className="flex py-10 justify-between border-b-1 border-neutral-300">
+        <div className="flex flex-col md:flex-row gap-10 md:gap-0 py-10 justify-between border-b-1 border-neutral-300">
           <div className="flex flex-col gap-4">
             <p>Siga em nossa redes:</p>
 

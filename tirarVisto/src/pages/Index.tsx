@@ -8,8 +8,8 @@ function Index() {
   return (
     <body className="w-11/12 m-auto py-4">
       <main>
-        <section className="flex gap-6 justify-between pb-4">
-          <div className="w-7/12">
+        <section className="flex flex-col md:flex-row gap-6 justify-between pb-4">
+          <div className="md:w-7/12">
             <NavBar />
 
             <div className="flex flex-col gap-10">
@@ -81,8 +81,8 @@ function Index() {
           </div>
         </section>
 
-        <section className="-ml-20 w-screen  bg-neutral-100">
-          <div className="text-6xl py-20 px-16 m-auto font-normal">
+        <section className="-ml-12 md:-ml-20 w-screen bg-neutral-100">
+          <div className="text-2xl md:text-6xl py-20 px-16 m-auto font-normal">
             <h1>
               CONSULTORIA COMPLETA PARA <br /> TIRAR SEU VISTO O
             </h1>
@@ -93,8 +93,8 @@ function Index() {
         <section className="py-20 flex flex-col gap-16">
           <div>
             <Label texto="Veja como funciona"></Label>
-            <div className="flex gap-25 items-center">
-              <h1 className="text-5xl font-semibold w-11/12 leading-15">
+            <div className="flex flex-col gap-10 md:flex-row md:gap-25 items-center">
+              <h1 className="text-5xl font-semibold md:w-11/12 leading-15">
                 Sua tranquilidade não tem preço!
               </h1>
               <p className="text-neutral-500">
@@ -108,9 +108,9 @@ function Index() {
             </div>
           </div>
 
-          <div className="flex gap-16">
+          <div className="flex flex-col md:flex-row gap-16">
             <img
-              className="w-3/5 bg-gray-400 rounded-2xl"
+              className="md:w-3/5 bg-gray-400 rounded-2xl"
               src="familia.png"
               alt="Familia em um aeroporto"
             />
@@ -146,7 +146,7 @@ function Index() {
             Top Destinos
           </p>
 
-          <h1 className="text-5xl font-medium">Destinos mais procurados</h1>
+          <h1 className="text-5xl font-medium text-center">Destinos mais procurados</h1>
 
           <p className="w-2/6 text-lg text-neutral-500 text-center">
             Confira os destinos mais procurados por nossos clientes nos últimos
@@ -157,17 +157,17 @@ function Index() {
 
           <div className="flex flex-col items-center gap-4">
             <div className="flex  items-end gap-4">
-              <div className="flex w-64 h-56 rounded-3xl p-4 items-end justify-center bg-[url(/indonesia.png)]">
+              <div className="flex w-42 h-52 md:w-64 md:h-56 rounded-3xl p-4 items-end justify-center bg-[url(/indonesia.png)]">
                 <p className="backdrop-blur-xs bg-white/20 rounded-full px-3 py-1 text-white">
                   Bali, Indonesia
                 </p>
               </div>
-              <div className="flex w-64 h-64 rounded-3xl p-4 items-end justify-center bg-[url(/novaYork.png)]">
+              <div className="flex w-56 md:w-64 h-64 rounded-3xl p-4 items-end justify-center bg-[url(/novaYork.png)]">
                 <p className="backdrop-blur-xs bg-white/20 rounded-full px-3 py-1 text-white text-sm">
                   Nova York, Estados Unidos
                 </p>
               </div>
-              <div className="flex w-64 h-56 rounded-3xl p-4 items-end justify-center bg-[url(/santorini.png)]">
+              <div className="flex w-42 h-52 md:w-64 md:h-56 rounded-3xl p-4 items-end justify-center bg-[url(/santorini.png)]">
                 <p className="backdrop-blur-xs bg-white/20 rounded-full px-3 py-1 text-white">
                   Santorini, Grécia
                 </p>
@@ -175,17 +175,17 @@ function Index() {
             </div>
 
             <div className="flex items-start gap-4">
-              <div className="flex w-64 h-56 rounded-3xl p-4 items-end justify-center bg-[url(/paris.png)]">
+              <div className="flex w-42 h-52 md:w-64 md:h-56 rounded-3xl p-4 items-end justify-center bg-[url(/paris.png)]">
                 <p className="backdrop-blur-xs bg-white/20 rounded-full px-3 py-1 text-white">
                   Paris, França
                 </p>
               </div>
-              <div className="flex w-64 h-64 rounded-3xl p-4 items-end justify-center bg-[url(/cidadeDoCabo.png)]">
+              <div className="flex w-56 md:w-64 h-64 rounded-3xl p-4 items-end justify-center bg-[url(/cidadeDoCabo.png)]">
                 <p className="backdrop-blur-xs bg-white/20 rounded-full px-3 py-1 text-white text-sm">
                   Cidade do Cabo, África do Sul
                 </p>
               </div>
-              <div className="flex w-64 h-56 rounded-3xl p-4 items-end justify-center bg-[url(/mumbai.png)]">
+              <div className="flex w-42 h-52 md:w-64 md:h-56 rounded-3xl p-4 items-end justify-center bg-[url(/mumbai.png)]">
                 <p className="backdrop-blur-xs bg-white/20 rounded-full px-3 py-1 text-white">
                   Mumbai, Índia
                 </p>
@@ -208,7 +208,7 @@ function Index() {
             </div>
           </div>
 
-          <div className="flex gap-6">
+          <div className="flex flex-col md:flex-row gap-6">
             <PacoteCard
               titulo="Passaporte"
               atendimento="On-line"

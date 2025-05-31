@@ -11,9 +11,9 @@ type PacoteCardProps ={
 
 function PacoteCard( {titulo,atendimento,tempo,plano,imgSrc,preco}: PacoteCardProps) {
   return (
-    <div className="border-1 border-neutral-300 w-5/12 rounded-2xl p-3 flex flex-col gap-5">
+    <div className="border-1 border-neutral-300 md:w-5/12 rounded-2xl p-3 flex flex-col gap-5">
       <img
-        className="h-72 bg-gray-400 rounded-lg"
+        className="md:h-72 bg-gray-400 rounded-lg"
         src={imgSrc}
         alt="Imagem"
       />
