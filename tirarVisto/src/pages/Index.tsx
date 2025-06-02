@@ -64,7 +64,7 @@ function Index() {
             </div>
           </div>
 
-          <div className="bg-[url(/heroPicture.png)] bg-no-repeat p-10 rounded-2xl flex flex-col justify-between">
+          <div className="bg-[url(/heroPicture.png)] bg-cover bg-no-repeat p-10 rounded-2xl flex flex-col justify-between">
             <div className="flex justify-end">
               <Label texto="Tirar meu visto agora!" />
             </div>
